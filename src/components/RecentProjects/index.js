@@ -46,7 +46,7 @@ const RecentProjects = () => {
   return (<>
     <h1>Recent Work</h1>
     {categoryList.map((item, index) => {
-      return <ProjectCard item={item}/>;
+      return <ProjectCard item={item} key={index}/>;
     })}
   </>);
 }
