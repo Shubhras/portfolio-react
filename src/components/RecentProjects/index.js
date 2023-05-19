@@ -44,7 +44,11 @@ const RecentProjects = () => {
     // }
   ];
   return (<>
-    <h1>Recent Work</h1>
+  <div className="text-center mt-14 text-rose-500">
+  <h4 className="font-medium">Recent Work</h4>
+    <h1 className="font-semibold text-2xl">Projects</h1>
+  </div>
+    
     {categoryList.map((item, index) => {
       return <ProjectCard item={item} key={index}/>;
     })}

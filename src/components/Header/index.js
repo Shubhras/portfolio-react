@@ -8,13 +8,14 @@ const Header = () => {
       <div className="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
         <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
           <div className="sm:max-w-lg">
-            <h1 className="font text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Summer styles are finally here
+            <h1 className="font text-xl font-bold tracking-tight text-rose-500 sm:text-5xl">
+             Building digital<br></br> 
+             experiences that <br></br>drive <br></br>convertible <br></br>traffic.
             </h1>
-            <p className="mt-4 text-xl text-gray-500">
+            {/* <p className="mt-4 text-xl text-gray-500">
               This year, our new summer collection will shelter you from the harsh elements of a world that doesn't care
               if you live or die.
-            </p>
+            </p> */}
           </div>
           <div>
             <div className="mt-10">
@@ -41,7 +42,7 @@ const Header = () => {
                         />
                       </div>
                     </div>
-                    {/* <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                    <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
                         <img
                           src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-03.jpg"
@@ -79,17 +80,30 @@ const Header = () => {
                           className="h-full w-full object-cover object-center"
                         />
                       </div>
-                    </div> */}
+                    </div>
                   </div>
                 </div>
               </div>
-
-              <a
+<div className='flex-btn flex'>
+        <div className='mr-8'>
+             <a
                 href="#"
-                className="inline-block rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-center font-medium text-white hover:bg-indigo-700"
+                className="inline-block rounded-md border border-transparent bg-stone-800 px-8 py-3 text-center font-medium text-white hover:bg-stone-800"
               >
-                Shop Collection
+                Download CV
               </a>
+           </div>
+           <div>
+             <a
+                href="#"
+                className="inline-block rounded-md border border-stone-900 bg-inherit px-8 py-3 text-center font-medium text-stone-900 hover:bg-inherit"
+              >
+                Let's talk!
+              </a>
+           </div>
+
+              
+              </div>
             </div>
           </div>
         </div>
