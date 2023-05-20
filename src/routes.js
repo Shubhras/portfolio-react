@@ -4,6 +4,8 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Error404 from './pages/Errors/Error404';
 import ValueCheck from "./pages/ValueCheck";
+import About from "./pages/About";
+
 
 import {
   createBrowserRouter,
@@ -25,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: "/ValueCheck",
     element: <Layout><ValueCheck /></Layout>,
+  },
+  {
+    path: "/About",
+    element: <Layout><About/></Layout>,
   },
 ]);
 export default router;

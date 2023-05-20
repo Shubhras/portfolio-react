@@ -22,7 +22,7 @@ const Banner = () => {
                 className=" lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl"
               >
                 <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8 bg-stone-800 text-white w-full h-full rounded-l-[350px]">
-                 <div className="text-black bg-white w-52 rounded-full h-52 ml-52 -mt-36">
+                 <div className="text-black bg-white w-28 rounded-full h-52 ml-52 -mt-36">
                  1
                  </div>
                       <div className="p-40 ml-40">

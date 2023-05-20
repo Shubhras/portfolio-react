@@ -11,12 +11,12 @@ const ValueCheck = () => {
 <div className=''>
 <div className="grid grid-cols-2 gap-4  place-content-center">
   <div className='p-10 rounded-lg shadow-lg text-left'>
-    <img src='web-design-3.jpg'/> 
+    <img src='sites.jpg'/> 
     <h1 className='text-rose-500 text-2xl mt-10 mb-5'>Project Overview</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
     <div className='p-10 rounded-lg shadow-lg text-left'>
-    <img src='web-design-3.jpg' />
+    <img src='sites.jpg' />
     <h1 className='text-rose-500 text-2xl mt-10 mb-5'>The Process</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
@@ -28,7 +28,7 @@ const ValueCheck = () => {
 <div className='mt-10 p-10'>
 <h1 className='text-rose-500 text-2xl font-medium mb-10'>Highlights</h1>
 <div className='w-full'>
-<img className='w-full' src='coding girk.jpg' />
+<img className='w-full' src='img_COVER.jpg' />
 </div>
 
 </div>
