@@ -22,7 +22,7 @@ const Menu = () => {
     </NavLink>
       </div>
 
-      <div>
+      <div className="mr-5">
       <NavLink
       to="/contact"
       className={({ isActive, isPending }) =>
@@ -32,6 +32,18 @@ const Menu = () => {
       Contact
     </NavLink>
       </div>
+
+      <div>
+      <NavLink
+      to="/ValueCheck"
+      className={({ isActive, isPending }) =>
+        isPending ? "pending" : isActive ? "active" : ""
+      }
+    >
+     ValueCheck
+    </NavLink>
+      </div>
+
       </div>
       </div>
     
