@@ -10,7 +10,7 @@ const Menu = () => {
         <h1>Falk</h1>
       </div>
      
-<div className="flex text-white bg-stone-800 w-1/5 -mt-2.5 -mr-3 -mb-3 rounded-ss-lg justify-center p-3.5	">
+<div className="flex text-white bg-stone-800 w-[18%] -mt-2.5 -mr-3 -mb-3 rounded-ss-lg justify-center p-3.5	">
       <div className="mr-5">
       <NavLink
       to="/"

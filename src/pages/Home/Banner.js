@@ -22,71 +22,22 @@ const Banner = () => {
                 className="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl"
               >
                 <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8 bg-stone-800 text-white w-full h-full rounded-l-[350px]">
-                 <div className="text-black bg-white w-40 rounded-full h-40 ml-52 -mt-28">
-                 
+                 <div className="text-black bg-white w-52 rounded-full h-52 ml-52 -mt-36">
+                 1
                  </div>
-                    
-                 
-                  <div className="flex items-center space-x-6 lg:space-x-8 p-56 ml-40">
+                      <div className="p-40 ml-40">
                     <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8 ">
                       <div className="">
-                        {/* <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-01.jpg"
-                          alt=""
-                          className="h-full w-full object-cover object-center"
-                        /> */}
-                        <h1 className="text-6xl text-rose-500">10+</h1>
-                        <h3 className="text-2xl">Skillsets</h3>
+                        <h1 className="text-6xl text-rose-500 ml-28">10+</h1>
+                        <h3 className="text-2xl ml-28">Skillsets</h3>
                       </div>
                       <div className="">
-                        {/* <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-02.jpg"
-                          alt=""
-                          className="h-full w-full object-cover object-center"
-                        /> */}
-                        <h1 className="text-6xl text-rose-500">20+</h1>
-                        <h3 className="text-2xl">Tools</h3>
+                        <h1 className="text-6xl text-rose-500 ml-28">20+</h1>
+                        <h3 className="text-2xl ml-28">Tools</h3>
                       </div>
                     </div>
-                    {/* <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-03.jpg"
-                          alt=""
-                          className="h-full w-full object-cover object-center"
-                        />
-                      </div>
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-04.jpg"
-                          alt=""
-                          className="h-full w-full object-cover object-center"
-                        />
-                      </div>
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-05.jpg"
-                          alt=""
-                          className="h-full w-full object-cover object-center"
-                        />
-                      </div>
-                    </div>
-                    <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-06.jpg"
-                          alt=""
-                          className="h-full w-full object-cover object-center"
-                        />
-                      </div>
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <img
-                          src="https://tailwindui.com/img/ecommerce-images/home-page-03-hero-image-tile-07.jpg"
-                          alt=""
-                          className="h-full w-full object-cover object-center"
-                        />
-                      </div>
-                    </div> */}
+                    <div className="text-black bg-rose-500 w-20 rounded-full h-20 ml-72 mt-48">
+                 </div>
                   </div>
                 </div>
               </div>
