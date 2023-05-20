@@ -58,7 +58,7 @@ const ServicesList = () => {
           </AccordionBody>
         </Accordion>
         <Accordion open={open === 2}>
-          <AccordionHeader onClick={() => handleOpen(2)}>
+          <AccordionHeader onClick={() => handleOpen(2)} className="no-border">
             <h2 className="text-rose-500 text-4xl text-left mb-10">
               Tools I love
               &nbsp;
