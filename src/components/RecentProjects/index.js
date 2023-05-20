@@ -45,8 +45,8 @@ const RecentProjects = () => {
   ];
   return (<>
   <div className="text-center mt-14 text-rose-500">
-  <h4 className="font-medium">Recent Work</h4>
-    <h1 className="font-semibold text-2xl">Projects</h1>
+  <h4 className="font-medium text-xl">Recent Work</h4>
+    <h1 className="font-semibold text-6xl">Projects</h1>
   </div>
     
     {categoryList.map((item, index) => {
