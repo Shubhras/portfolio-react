@@ -17,9 +17,9 @@ const ServicesList = () => {
   };
   return (<>
     <div className="">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8" id="service-box">
         <Accordion open={open === 1}>
-          <AccordionHeader onClick={() => handleOpen(1)}>
+          <AccordionHeader onClick={() => handleOpen(1)} className="no-border">
             <h2 className="text-rose-500 text-4xl text-left mb-10">
               Skillsets I breathe
               &nbsp;
@@ -30,11 +30,12 @@ const ServicesList = () => {
                   <FontAwesomeIcon icon={icon({name: 'chevron-up'})} style={{color: "#FFF",}}/>
               }
             </h2>
+            
           </AccordionHeader>
           <AccordionBody>
             <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-6">
               <div className="mx-auto flex max-w-xs flex-col gap-y-4">
-                <dd className="order-first text-2xl font-semibold tracking-tight text-white text-left">Design</dd>
+                <dd className=" text-2xl font-semibold  text-white text-left">Design</dd>
                 <hr className="-mt-4 w-20"></hr>
                 <dt className="text-base leading-7 text-white text-left">Brand Identity</dt>
                 <dt className="text-base leading-7 text-white text-left">UX/UI</dt>
@@ -45,7 +46,7 @@ const ServicesList = () => {
 
               </div>
               <div className="mx-auto flex max-w-xs flex-col gap-y-4">
-                <dd className="order-first text-2xl font-semibold tracking-tight text-white text-left">Marketing</dd>
+                <dd className="text-2xl font-semibold  text-white text-left">Marketing</dd>
                 <hr className="-mt-4 w-28"></hr>
                 <dt className="text-base leading-7 text-white text-left">Copy</dt>
                 <dt className="text-base leading-7 text-white text-left">Meta Ads</dt>

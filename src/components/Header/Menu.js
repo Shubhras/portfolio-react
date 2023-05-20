@@ -5,12 +5,12 @@ const Menu = () => {
   return (<>
 
 
-<div className="bg-white text-rose-500 flex justify-between p-2 ">
+<div className=" text-rose-500 flex justify-between p-2 ">
       <div className='font-semibold'>
         <h1>Falk</h1>
       </div>
      
-<div className="flex text-white bg-stone-800 w-[18%] -mt-2.5 -mr-3 -mb-3 rounded-ss-lg justify-center p-3.5	">
+<div className="flex text-white w-[18%] -mt-2.5 -mr-3 -mb-32 rounded-ss-lg justify-center p-3.5	z-10">
       <div className="mr-5">
       <NavLink
       to="/"

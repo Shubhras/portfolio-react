@@ -1,7 +1,7 @@
 import React from "react";
 const Banner = () => {
   return (<>
-    <div className="relative overflow-hidden bg-white">
+    <div className="relative overflow-hidden -mt-10">
       <div className="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
         <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
           <div className="sm:max-w-lg">
@@ -19,7 +19,7 @@ const Banner = () => {
               {/* Decorative image grid */}
               <div
                 aria-hidden="true"
-                className="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl"
+                className=" lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl"
               >
                 <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8 bg-stone-800 text-white w-full h-full rounded-l-[350px]">
                  <div className="text-black bg-white w-52 rounded-full h-52 ml-52 -mt-36">
