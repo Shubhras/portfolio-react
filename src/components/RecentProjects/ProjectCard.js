@@ -1,10 +1,10 @@
 import React from "react";
 const ProjectCard = ({ item }) => {
-  return (<>
+  return (<div>
 
     <div className="relative rounded-xl overflow-auto p-8">
       <div className="grid grid-cols-2 gap-4 font-mono text-white text-sm text-center font-bold ml-52 mt-14">
-        <div class="p-4 rounded-lg bg-indigo-300 dark:bg-indigo-800 dark:text-indigo-400 w-8/12 h-96 bg-neutral-200 rounded-3xl shadow-lg mb-9 ml-14">
+        <div className="p-4 rounded-lg bg-indigo-300 dark:bg-indigo-800 dark:text-indigo-400 w-8/12 h-96 bg-neutral-200 rounded-3xl shadow-lg mb-9 ml-14">
           <div className="-mt-5 -ml-4 -mr-4 bg-stone-800 h-60 rounded-ss-3xl rounded-tr-3xl">
             <h3 className="p-28 font-Montserrat text-xl">Design,Marketing</h3>
           </div>
@@ -65,6 +65,6 @@ const ProjectCard = ({ item }) => {
         </div>
       </div>
     </div>
-  </>);
+  </div>);
 }
 export default ProjectCard;
