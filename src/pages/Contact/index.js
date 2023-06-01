@@ -2,23 +2,24 @@ import React from 'react';
 
 const Contact = () => {
   return (<>
-    <div className="flex place-content-around ">
-      <div class="grid grid-cols-1 gap-4 w-64 h-80 mt-96 ml-72">
-        <div className="p-8 rounded-3xl shadow-lg bg-stone-800 text-white text-center">
-          <h2 className="font-semibold mt-2.5">Email</h2>
+    <div className="flex place-content-around " id='Cont-box'>
+      <div class="grid grid-cols-1 gap-4  flex-wrap w-64 h-80 mt-96 ml-72" id='grid-contact'>
+        <div className="p-8 rounded-3xl shadow-lg bg-stone-800 text-white text-center"id='email'>
+          <a href='anastasia.falk77@gmail.com'><h2 className="font-semibold mt-2.5">Email</h2></a>
+          
           <p className="-mb-10">Send a message</p>
         </div>
 
-        <div className="p-8 rounded-3xl shadow-lg bg-stone-800 text-white text-center">
+        <div className="p-8 rounded-3xl shadow-lg bg-stone-800 text-white text-center"id='whatsup'>
           <h2 className="font-semibold mt-2.5">WhatsApp</h2>
           <p className="-mb-10">Send a message</p>
         </div>
       </div>
 
-      <section class="bg-white dark:bg-gray-900 w-4/6">
+      <section class="bg-white dark:bg-gray-900 w-4/6"id='form'>
         <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md w-2/4">
           <h2 className="mb-4 text-xl tracking-tight font-extrabold text-left text-rose-500">Get in touch</h2>
-          <p className="mb-8 lg:mb-16 text-left text-rose-500 text-7xl">Don’t be a < br></br>stranger! <br></br>
+          <p className="mb-8 lg:mb-16 text-left text-rose-500 text-7xl"id='cont'>Don’t be a < br></br>stranger! <br></br>
             Say hi!</p>
           <form action="#" className="space-y-8">
 

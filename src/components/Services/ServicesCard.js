@@ -10,18 +10,24 @@ const ServicesCard = ({ item }) => {
     <h1 className="font-semibold text-6xl">Services</h1>
   
 
-<div className="grid grid-cols-3 gap-4 text-center mt-10 ml-8">
-  <div className="p-24 bg-white w-96 h-96 rounded-[50px]">
+<div className="grid grid-cols-3 gap-4 flex-wrap text-center mt-10 ml-8" id="Services-card">
+  <div className="p-24 bg-white text-black hover:bg-rose-500 hover:text-white w-96 h-96 rounded-[50px]">
+  <a href="#">
   <img className="ml-14" src="web.png"/>
-  <h3 className="text-black text-2xl mt-8">Web and graphic design</h3>
+  <h3 className=" hover:text-white text-2xl mt-8">Web and graphic design</h3>
+  </a>
   </div>
-  <div className="p-24 bg-white w-96 h-96 rounded-[50px]">
+  <div className="p-24 bg-white text-black hover:bg-rose-500 hover:text-white w-96 h-96 rounded-[50px]">
+  <a href="#">
   <img className="ml-14" src="Ui.png"/>
-  <h3 className="text-black text-2xl mt-8">UX/UI</h3>
+  <h3 className=" hover:text-white text-2xl mt-8">UX/UI</h3>
+  </a>
     </div>
-  <div className="p-24 bg-white w-96 h-96 rounded-[50px]">
+  <div className="p-24 bg-white text-black hover:bg-rose-500 hover:text-white w-96 h-96 rounded-[50px]">
+  <a href="#">
   <img  className="ml-14" src="markting.png"/>
-  <h3 className="text-black text-2xl mt-8">Marketing</h3>
+  <h3 className=" hover:text-white text-2xl mt-8">Marketing</h3>
+  </a>
   </div>
   </div>
 

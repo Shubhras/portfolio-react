@@ -35,7 +35,9 @@ const ServicesList = () => {
           <AccordionBody>
             <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-6">
               <div className="mx-auto flex max-w-xs flex-col gap-y-4">
+                <a href="#">
                 <dd className=" text-2xl font-semibold  text-white text-left">Design</dd>
+                </a>
                 <hr className="-mt-4 w-20"></hr>
                 <dt className="text-base leading-7 text-white text-left">Brand Identity</dt>
                 <dt className="text-base leading-7 text-white text-left">UX/UI</dt>
@@ -46,7 +48,9 @@ const ServicesList = () => {
 
               </div>
               <div className="mx-auto flex max-w-xs flex-col gap-y-4">
+              <a href="#">
                 <dd className="text-2xl font-semibold  text-white text-left">Marketing</dd>
+                </a>
                 <hr className="-mt-4 w-28"></hr>
                 <dt className="text-base leading-7 text-white text-left">Copy</dt>
                 <dt className="text-base leading-7 text-white text-left">Meta Ads</dt>
@@ -73,7 +77,9 @@ const ServicesList = () => {
           <AccordionBody>
             <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-6">
               <div className="mx-auto flex max-w-xs flex-col gap-y-4">
+              <a href="#">
                 <dd className="order-first text-2xl font-semibold tracking-tight text-white text-left">Design:</dd>
+               </a>
                 <hr className="-mt-4 w-20"></hr>
                 <dt className="text-base leading-7 text-white text-left">Adobe Suite</dt>
                 <dt className="text-base leading-7 text-white text-left">Figma</dt>
@@ -83,7 +89,9 @@ const ServicesList = () => {
 
               </div>
               <div className="mx-auto flex max-w-xs flex-col gap-y-4">
+              <a href="#">
                 <dd className="order-first text-2xl font-semibold tracking-tight text-white text-left">Marketing:</dd>
+               </a>
                 <hr className="-mt-4 w-28"></hr>
                 <dt className="text-base leading-7 text-white text-left">Google Analytics</dt>
                 <dt className="text-base leading-7 text-white text-left">Google Keyword Research</dt>

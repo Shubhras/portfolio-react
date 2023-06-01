@@ -5,11 +5,11 @@ const About = () => {
     <div className="bg-white p-10">
       <div className=''>
         <div className=''>
-          <div className="grid grid-cols-2 gap-4  place-content-center">
-            <div className='p-10 shadow-lg ml-36'>
+          <div className="grid grid-cols-2 gap-4 flex-wrap place-content-center" id='about-us'>
+            <div className='p-10 shadow-lg ml-36' id='about-img'>
               <img src='a_1.jpg' />
             </div>
-            <div className='bg-stone-800 -mt-24 -mr-10'>
+            <div className='bg-stone-800 -mt-24 -mr-10'id='about-cont'>
             <div className='p-10 shadow-lg text-left mt-20'>
               <h1 className='text-white mt-20'>What I am all</h1>
               <h1 className='text-rose-500 text-6xl mt-2.5 mb-10'>About</h1>

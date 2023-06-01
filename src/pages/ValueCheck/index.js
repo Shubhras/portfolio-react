@@ -9,7 +9,7 @@ const ValueCheck = () => {
 </div>
 <div className=''>
 <div className=''>
-<div className="grid grid-cols-2 gap-4  place-content-center">
+<div className="grid grid-cols-2 gap-4  place-content-center"id='value-check'>
   <div className='p-10 rounded-lg shadow-lg text-left'>
     <img src='sites.jpg'/> 
     <h1 className='text-rose-500 text-2xl mt-10 mb-5'>Project Overview</h1>

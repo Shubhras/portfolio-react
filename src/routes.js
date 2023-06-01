@@ -5,6 +5,8 @@ import Contact from "./pages/Contact";
 import Error404 from './pages/Errors/Error404';
 import ValueCheck from "./pages/ValueCheck";
 import About from "./pages/About";
+import Serotoned from "./pages/Serotoned";
+
 
 
 import {
@@ -32,5 +34,11 @@ const router = createBrowserRouter([
     path: "/About",
     element: <Layout><About/></Layout>,
   },
+
+  {
+    path: "/Serotoned",
+    element: <Layout><Serotoned/></Layout>,
+  },
+
 ]);
 export default router;

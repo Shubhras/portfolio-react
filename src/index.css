@@ -5,3 +5,179 @@
 .no-border{
     border: none !important;
 }
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: #FFFFFF;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    div#absoulte-response {
+        margin-top: 20px;
+    }
+    div#relt-banner {
+        position: unset;
+    }
+    div#top-circle {
+        height: 100px;
+        width: 100px;
+        margin-top: -55px;
+    }
+    a#download-btn {
+        margin-left: -13px;
+        margin-right: -25px;
+    }
+    div#text-skill {
+        padding: 0px;
+        margin: 0px;
+        margin-top: -35px;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 600px) {
+    div#card-1 {
+        margin-left: 60px;
+        width: 150px;
+    }
+    div#card-2 {
+        margin-left: 40px;
+        width: 150px;
+    }
+    div#recent {
+        margin-left: -262px;
+    }
+    h3#card-H-1 {
+        margin-left: -100px;
+        font-size: 12px;
+    }
+    a#card-btn-1 {
+        font-size: 10px;
+        font-weight: bolder;
+        padding: 8px;
+    }
+    h3#card-H-2 {
+        margin-left: -60px;
+        font-size: 12px;
+    }
+    a#card-btn-2 {
+        font-size: 10px;
+        font-weight: bolder;
+        padding: 8px;
+    }
+    h3#card-H-3 {
+        margin-left: -60px;
+        font-size: 12px;
+    }
+    a#card-btn-3 {
+        font-size: 10px;
+        font-weight: bolder;
+        padding: 8px;
+    }
+    h3#card-H-4 {
+        margin-left: -55px;
+        font-size: 12px;
+    }
+    a#card-btn-4 {
+        font-size: 10px;
+        font-weight: bolder;
+        padding: 8px;
+        margin-top: 12px;
+    }
+    h3#card-H-5 {
+        margin-left: -45px;
+    }
+    div#card-3 {
+        margin-left: 60px;
+        width: 150px;
+    }
+    div#card-4 {
+        margin-left: 40px;
+        width: 150px;
+    }
+    div#card-5 {
+        margin-left: 130px;
+        width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+  div#Services-card {
+    display: inline-flex;
+    margin-left: -45px;
+}
+  }
+
+  @media only screen and (max-width: 600px) {
+  div#grid-contact {
+    display: inline-flex;
+    margin-left: 36px;
+    margin-top: 220px;
+}
+div#email {
+    width: 140px;
+    height: 150px;
+    margin-left: 25px;
+}
+div#whatsup {
+    width: 140px;
+    height: 150px;
+    margin-left: 25px;
+}
+section#form {
+    margin-right: 100px;
+}
+input#subject {
+    width: 200px;
+}
+p#cont {
+    font-size: 25px;
+}
+input#email {
+    width: 200px;
+}
+textarea#message {
+    width: 200px;
+}
+  }
+
+  @media only screen and (max-width: 600px) {
+
+  div#value-check {
+    display: block;
+}
+  }
+
+  @media only screen and (max-width: 600px) {
+  div#about-us {
+    display: block;
+    margin-left: -26px;
+}
+div#about-img {
+    margin-left: 20px;
+}
+div#about-cont {
+    margin-right: -22px;
+}
+  }
+
+  /* @media only screen and (max-width: 768px) {
+
+    div#card-1 {
+        margin-left: -200px;
+        width: 330px;
+    }
+    div#card-2 {
+        margin-left: -100px;
+        width: 330px;
+    }
+    div#card-3 {
+        margin-left: -200px;
+    width: 330px;
+    }
+    div#card-4 {
+        margin-left: -100px;
+    width: 330px;
+    }
+  }
+   */
