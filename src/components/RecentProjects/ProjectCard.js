@@ -23,7 +23,7 @@ const ProjectCard = ({ item }) => {
           </div>
           <div className="mt-8 text-left font-mono"id="card-P-2">
             <p className="text-black">Serotoned-01</p>
-            <a href="ReactResumeDownload.pdf" className="inline-block rounded-md border border-transparent bg-rose-500 px-8 py-3 text-center font-medium text-white hover:bg-rose-500 mt-8 font-mono"id="card-btn-2" >
+            <a href="" className="inline-block rounded-md border border-transparent bg-rose-500 px-8 py-3 text-center font-medium text-white hover:bg-rose-500 mt-8 font-mono"id="card-btn-2" >
             View Project
             </a>
           </div>

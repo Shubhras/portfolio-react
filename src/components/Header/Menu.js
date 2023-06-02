@@ -5,7 +5,7 @@ const Menu = () => {
   return (<>
 
 
-    <div className=" text-rose-500 flex justify-between p-2 ">
+    <div className=" text-rose-500 inline-flex justify-between p-2 w-5/6	">
       <div className='font-semibold'>
         {/* <h1>Falk</h1> */}
         <NavLink
@@ -18,7 +18,7 @@ const Menu = () => {
           </NavLink>
       </div>
 
-      <div className="flex text-white w-[25%] -mt-2.5 -mr-24 -mb-32 rounded-ss-lg justify-center p-3.5	z-10">
+      <div className="flex text-white w-[25%] -mt-2.5 -mr-60 -mb-32 rounded-ss-lg justify-center p-3.5	z-10">
         {/* <div className="mr-5">
       <NavLink
       to="/"
