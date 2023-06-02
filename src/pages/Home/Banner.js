@@ -11,16 +11,13 @@ const Banner = () => {
             </h1>
 
             <div className='flex-btn flex mt-14'>
-        <div className='mr-8'>
-             <a href="#" className="inline-block rounded-md border border-transparent bg-stone-800 px-8 py-3 text-center font-medium text-white hover:bg-stone-800" id="download-btn" >
+           <div className='mr-8 z-10'>
+             <a href="ReactResumeDownload.pdf" className="inline-block rounded-md border border-transparent bg-stone-800 px-8 py-3 text-center font-medium text-white hover:bg-stone-800" id="download-btn" >
                 Download CV
               </a>
            </div>
-           <div>
-             <a
-                href="#"
-                className="inline-block rounded-md border border-stone-900 bg-inherit px-8 py-3 text-center font-medium text-stone-900 hover:bg-inherit"
-              >
+           <div className="z-10">
+             <a href="" className="inline-block rounded-md border border-stone-900 bg-inherit px-8 py-3 text-center font-medium text-stone-900 hover:bg-inherit">
                 Let's talk!
               </a>
            </div>
@@ -35,10 +32,7 @@ const Banner = () => {
           <div>
             <div className="mt-10">
               {/* Decorative image grid */}
-              <div
-                aria-hidden="true"
-                className=" lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl" id="absoulte"
-              >
+              <div className=" lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl" id="absoulte">
                 <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8 bg-stone-800 text-white w-full h-full rounded-l-[350px]" id="absoulte-response">
                  <div className="text-black bg-white w-28 rounded-full h-52 ml-52 -mt-36" id="top-circle">
                  

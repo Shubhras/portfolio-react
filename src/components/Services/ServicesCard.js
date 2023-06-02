@@ -1,6 +1,4 @@
 import React from "react";
-import { FaBeer } from 'react-icons/fa';
-import { IconName } from "react-icons/si";
 import ServicesList from "../../pages/Home/ServicesList";
 const ServicesCard = ({ item }) => {
   return (<>

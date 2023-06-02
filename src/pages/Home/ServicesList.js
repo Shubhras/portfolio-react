@@ -5,8 +5,8 @@ import {
   AccordionBody,
 } from "@material-tailwind/react";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { icon } from '@fortawesome/fontawesome-svg-core/import.macro';
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+//import { icon } from '@fortawesome/fontawesome-svg-core/import.macro';
 
 
 const ServicesList = () => {
@@ -25,9 +25,10 @@ const ServicesList = () => {
               &nbsp;
               {
                 open == 1 ?
-                  <FontAwesomeIcon icon={icon({name: 'chevron-down'})} style={{color: "#FFF",}}/>
+
+                  <i className="fa fa-chevron-down" style={{color: "#FFF",}}></i>
                   :
-                  <FontAwesomeIcon icon={icon({name: 'chevron-up'})} style={{color: "#FFF",}}/>
+                  <i className="fa fa-chevron-up" style={{color: "#FFF",}}></i>
               }
             </h2>
             
@@ -68,9 +69,9 @@ const ServicesList = () => {
               &nbsp;
               {
                 open == 2 ?
-                  <FontAwesomeIcon icon={icon({name: 'chevron-down'})} style={{color: "#FFF",}}/>
-                  :
-                  <FontAwesomeIcon icon={icon({name: 'chevron-up'})} style={{color: "#FFF",}}/>
+                <i className="fa fa-chevron-down" style={{color: "#FFF",}}></i>
+                :
+                <i className="fa fa-chevron-up" style={{color: "#FFF",}}></i>
               }
             </h2>
           </AccordionHeader>
