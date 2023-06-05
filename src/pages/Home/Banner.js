@@ -17,7 +17,7 @@ const Banner = () => {
               </a>
            </div>
            <div className="z-10">
-             <a href="" className="inline-block rounded-md border border-stone-900 bg-inherit px-8 py-3 text-center font-medium text-stone-900 hover:bg-inherit">
+             <a href="Contact" className="inline-block rounded-md border border-stone-900 bg-inherit px-8 py-3 text-center font-medium text-stone-900 hover:bg-inherit">
                 Let's talk!
               </a>
            </div>

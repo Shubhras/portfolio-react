@@ -5,7 +5,7 @@ const Contact = () => {
     <div className="flex place-content-around " id='Cont-box'>
       <div class="grid grid-cols-1 gap-4  flex-wrap w-64 h-80 mt-96 ml-72" id='grid-contact'>
         <div className="p-8 rounded-3xl shadow-lg bg-stone-800 text-white text-center"id='email'>
-          <a href='anastasia.falk77@gmail.com'><h2 className="font-semibold mt-2.5">Email</h2></a>
+          <a href='mailto:anastasia.falk77@gmail.com'><h2 className="font-semibold mt-2.5">Email</h2></a>
           
           <p className="-mb-10">Send a message</p>
         </div>
@@ -36,7 +36,7 @@ const Contact = () => {
               <label for="message" className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"></label>
               <textarea id="message" rows="6" className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Write a message"></textarea>
             </div>
-            <button type="submit" className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send message</button>
+            <button type="submit" className="py-3 px-5 w-3/6 text-sm font-medium text-center text-white rounded-lg bg-rose-500">Send message</button>
           </form>
         </div>
       </section>

@@ -5,6 +5,23 @@
 .no-border{
     border: none !important;
 }
+
+div#card-1 {
+    background: linear-gradient(to top, #EAEAEA 60%, #36213E 60%) !important;
+}
+div#card-2 {
+    background: linear-gradient(to top, #EAEAEA 60%, #36213E 60%) !important;
+}
+
+
+div#card-1:hover {
+    background: linear-gradient(to top, #36213E 60%, #EAEAEA 60%) !important;
+}
+div#card-2:hover {
+    background: linear-gradient(to top, #36213E 60%, #EAEAEA 60%) !important;
+}
+
+
 @media only screen and (max-width: 600px) {
     body {
       background-color: #FFFFFF;

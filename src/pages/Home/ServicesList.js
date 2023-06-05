@@ -41,14 +41,14 @@ const ServicesList = () => {
                 </a>
                 <hr className="-mt-4 w-20"></hr>
                 <dt className="text-base leading-7 text-white text-left">Brand Identity</dt>
-                <dt className="text-base leading-7 text-white text-left">UX/UI</dt>
+                {/* <dt className="text-base leading-7 text-white text-left">UX/UI</dt> */}
                 <dt className="text-base leading-7 text-white text-left">Graphic Design</dt>
                 <dt className="text-base leading-7 text-white text-left">Web Design</dt>
                 <dt className="text-base leading-7 text-white text-left">HTML/CSS</dt>
                 <dt className="text-base leading-7 text-white text-left">Ad Creative Design</dt>
 
               </div>
-              <div className="mx-auto flex max-w-xs flex-col gap-y-4">
+              {/* <div className="mx-auto flex max-w-xs flex-col gap-y-4">
               <a href="#">
                 <dd className="text-2xl font-semibold  text-white text-left">Marketing</dd>
                 </a>
@@ -58,7 +58,7 @@ const ServicesList = () => {
                 <dt className="text-base leading-7 text-white text-left">Google Ads</dt>
                 <dt className="text-base leading-7 text-white text-left">SEO</dt>
 
-              </div>
+              </div> */}
             </dl>
           </AccordionBody>
         </Accordion>
@@ -85,11 +85,11 @@ const ServicesList = () => {
                 <dt className="text-base leading-7 text-white text-left">Adobe Suite</dt>
                 <dt className="text-base leading-7 text-white text-left">Figma</dt>
                 <dt className="text-base leading-7 text-white text-left">Blender</dt>
-                <dt className="text-base leading-7 text-white text-left">Wix</dt>
-                <dt className="text-base leading-7 text-white text-left">Squarespace</dt>
+                {/* <dt className="text-base leading-7 text-white text-left">Wix</dt>
+                <dt className="text-base leading-7 text-white text-left">Squarespace</dt> */}
 
               </div>
-              <div className="mx-auto flex max-w-xs flex-col gap-y-4">
+              {/* <div className="mx-auto flex max-w-xs flex-col gap-y-4">
               <a href="#">
                 <dd className="order-first text-2xl font-semibold tracking-tight text-white text-left">Marketing:</dd>
                </a>
@@ -97,7 +97,7 @@ const ServicesList = () => {
                 <dt className="text-base leading-7 text-white text-left">Google Analytics</dt>
                 <dt className="text-base leading-7 text-white text-left">Google Keyword Research</dt>
                 <dt className="text-base leading-7 text-white text-left">Ahrefs</dt>
-              </div>
+              </div> */}
             </dl>
           </AccordionBody>
         </Accordion>
