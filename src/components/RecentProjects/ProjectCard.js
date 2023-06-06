@@ -10,7 +10,7 @@ const ProjectCard = ({ item }) => {
           </div>
           <div className="-mt-8 text-left font-mono text-black hover:text-white"id="card-P-1">
             <p className="hover:text-white">Serotoned-01</p>
-            <a href="#" className="inline-block rounded-md border border-transparent bg-rose-500 px-8 py-3 text-center font-medium text-white hover:bg-rose-500 mt-20 font-mono"id="card-btn-1">
+            <a href="Serotoned" className="inline-block rounded-md border border-transparent bg-rose-500 px-8 py-3 text-center font-medium text-white hover:bg-rose-500 mt-20 font-mono"id="card-btn-1">
             View Project
             </a>
           </div>
